@@ -1,0 +1,15 @@
+Chessie
+Serilog
+Serilog.Sinks.ColoredConsole
+Serilog.Sinks.RollingFileAlternate
+Serilog.Sinks.Trace
+
+FSharp.Core redirects: force
+FSharp.Data 
+FSharp.Configuration
+WebSocketSharp
+FSharp.Data.SqlClient
+NCrontab
+NBitcoin
+QBitNinja.Client
+Quartz
