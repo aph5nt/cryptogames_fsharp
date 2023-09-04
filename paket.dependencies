@@ -1,0 +1,41 @@
+source https://nuget.org/api/v2
+framework >= net46
+
+nuget Chessie
+nuget FSharp.Core
+nuget FSharp.Configuration
+nuget FSharp.Data
+nuget FSharp.Data.SqlClient
+nuget NCrontab
+nuget Serilog.Sinks.Console
+nuget Serilog.Sinks.RollingFileAlternate
+nuget Serilog.Sinks.Trace ~> 2.0.0-rc-708
+nuget Serilog.Sinks.ColoredConsole -Pre
+nuget Common.Logging.Serilog
+nuget WebSocketSharp  
+nuget Rijndael256
+nuget Scrypt.NET
+nuget FSharp.Collections.ParallelSeq
+nuget Suave
+nuget System.IdentityModel.Tokens.Jwt ~> 4.0.2.206221351
+nuget QBitNinja.Client
+nuget Quartz
+github haf/YoLo YoLo.fs
+
+group Build
+source https://nuget.org/api/v2
+framework >= net46
+  
+nuget FAKE
+nuget FSharp.Formatting
+nuget SourceLink.Fake
+
+github fsharp/FAKE modules/Octokit/Octokit.fsx
+
+group Test
+source https://nuget.org/api/v2
+framework >= net46
+
+nuget FsUnit
+nuget NUnit ~> 2.6.4
+nuget NUnit.Runners ~> 2.6.4
